@@ -1,5 +1,5 @@
 {
-  "name": "React-template",
+  "name": "react-template",
   "version": "0.1.0",
   "private": true,
   "description": "React Template",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JonathanPeralez/React-Template.git"
+    "url": "git+https://github.com/JonathanPeralez/react-template.git"
   },
   "author": "Jonathan Peralez",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JonathanPeralez/React-Template/issues"
+    "url": "https://github.com/JonathanPeralez/react-template/issues"
   },
-  "homepage": "https://github.com/JonathanPeralez/React-Template#readme",
+  "homepage": "https://github.com/JonathanPeralez/react-template#readme",
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
