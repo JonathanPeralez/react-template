@@ -1,0 +1,49 @@
+{
+  "name": "React-template",
+  "version": "0.1.0",
+  "private": true,
+  "description": "React Template",
+  "main": "./index.js",
+  "scripts": {
+    "dev-client": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src -c .eslintrc --ext js,jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanPeralez/React-Template.git"
+  },
+  "author": "Jonathan Peralez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonathanPeralez/React-Template/issues"
+  },
+  "homepage": "https://github.com/JonathanPeralez/React-Template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.18.2",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1"
+  }
+}
