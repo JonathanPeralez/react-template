@@ -15,13 +15,13 @@ module.exports = {
     },
     historyApiFallback: true,
     /*
-    * Tells server where you want to serve files from
-    * - only necessary if you want to serve static files
-    * - Determines where the bundles should be served from
-    * - By default it will use your current working directory to serve content
-    * - To disable contentBase set it to false
-    */
-    contentBase: [ path.join(__dirname, 'dist'), path.join(__dirname, 'assets') ],
+     * Tells server where you want to serve files from
+     * - only necessary if you want to serve static files
+     * - Determines where the bundles should be served from
+     * - By default it will use your current working directory to serve content
+     * - To disable contentBase set it to false
+     */
+    contentBase: [path.join(__dirname, 'dist'), path.join(__dirname, 'assets')],
     // contentBase: path.join(__dirname, 'dist')
   },
   devtool: 'source-map',
@@ -33,13 +33,13 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: [ '@babel/preset-env', '@babel/preset-react' ],
+            presets: ['@babel/preset-env', '@babel/preset-react'],
           },
         },
       },
       {
         test: /\.css$/,
-        use: [ 'style-loader', 'css-loader' ],
+        use: ['style-loader', 'css-loader'],
       },
       // Simple file-loader - outputs files to a directory
       // {
