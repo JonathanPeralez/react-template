@@ -35,7 +35,11 @@ module.exports = {
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react'],
             // @babel/plugin-transform-runtime enables async await and fetch API
-            plugins: ['@babel/plugin-transform-runtime'],
+            plugins: [
+              '@babel/plugin-transform-runtime',
+              '@babel/plugin-transform-arrow-functions',
+              '@babel/plugin-proposal-class-properties',
+            ],
           },
         },
       },
