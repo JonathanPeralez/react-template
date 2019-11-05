@@ -34,6 +34,7 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react'],
+            // @babel/plugin-transform-runtime enables async await and fetch API
             plugins: ['@babel/plugin-transform-runtime'],
           },
         },
