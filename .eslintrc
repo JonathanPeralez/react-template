@@ -1,5 +1,13 @@
 {
-  "extends": ["plugin:react/recommended", "airbnb", "plugin:prettier/recommended", "prettier/react", "prettier/standard"],
+  "extends": [
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:prettier/recommended",
+    "prettier/react",
+    "prettier/standard"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -21,12 +29,15 @@
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
+        "extensions": [".js", ".jsx"]
       }
     ],
-    "eol-last": "off"
-  },
+    "eol-last": "off",
+    "jsx-a11y/label-has-associated-control": [ 2, {
+      "labelComponents": ["CustomInputLabel"],
+      "labelAttributes": ["label"],
+      "controlComponents": ["CustomInput"],
+      "depth": 3
+    }]
+  }
 }
